@@ -28,7 +28,8 @@
                 </div>       
         </div>
         <userInfo v-if="ipinfo" v-bind:ipinfo='ipinfo'/>
-    </div>
+    
+      </div>
            
   </div>
 </template>
@@ -74,7 +75,7 @@ export default {
                 location: result.location,
                  blog: result.blog,
                  twitter: result.twitter_username,
-                 url: result.url
+                 url: result.type
               }
           }
             catch(err){

@@ -37,23 +37,22 @@
                         <i class="fas fa-map-marker-alt w-4 h-4 fill-current"></i><p class="ml-3">{{ipinfo.location}}</p>     
                     </div>
                     <div class="flex ">
-                        <i class="fas fa-link"></i> <a href="" class="ml-3 cursor-pointer">{{ipinfo.blog}}</a>
+                        <i class="fas fa-link"></i> <a href="#" target="blank_" class="ml-3 ">{{ipinfo.blog}}</a>
                     </div>
                     <div class="flex ">
-                        <i class="fab fa-twitter "></i> <a href="" class="ml-3">{{ipinfo.twitter}}</a>
+                        <i class="fab fa-twitter "></i> <a href="#" class="ml-3 ">{{ipinfo.twitter}}</a>
                     </div>
 
                     <div class="flex ">
-                       <i class="fas fa-building"></i><a href="" class="ml-3 cursor-pointer">{{ipinfo.url}}</a>
+                       <i class="fas fa-user-tag"></i><p class="ml-3 ">{{ipinfo.url}}</p>
                     </div>
                 </div>
-
         </main>
 
             <div class="flex justify-center">
               <p class="text-black dark:text-white font-bold">Designed and Implemented by</p> 
               <a href="https://github.com/SammieKei40" target="_blank" class="text-blue-400 ml-1">Sammie Kei</a>
-        </div>
+             </div>
     </div>
 </template>
 
